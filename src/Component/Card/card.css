@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&family=Staatliches&display=swap');
+
+.card {
+  width: 99%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin-top: 3px;
+  border-radius: 3px;
+  display: flex;
+  height: auto;
+  background-color: #002d63;
+}
+
+.coa {
+  width: 50%;
+  margin: 20%;
+  height: 250px;
+  height: auto;
+}
+
+.fg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstSection {
+  width: 50%;
+  padding-right: 5px;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.secondSection {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.countryName {
+  margin-bottom: 10px;
+  padding: 3px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: roboto, sans-serif;
+}
+
+.flags {
+  width: 45%;
+}
+
+.font {
+  color: white;
+  font-family: Staatliches, sans-serif;
+}
+
+button {
+  margin-top: 10px;
+  width: max-content;
+  height: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #00a1e5;
+}
+
+.map {
+  border-radius: 3px;
+  padding: 5px;
+  background-color: #00a1e5;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 99%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin: 3px 5px;
+    border-radius: 3px;
+    display: flex;
+    height: auto;
+    background-color: #002d63;
+  }
+
+  .coa {
+    width: 50%;
+    height: 250px;
+    margin: 0;
+  }
+
+  .fg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstSection {
+    width: 50%;
+    padding-right: 5px;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .secondSection {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .countryName {
+    margin-bottom: 10px;
+    padding: 3px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+  }
+
+  .flags {
+    width: 45%;
+  }
+
+  .font {
+    color: white;
+    font-family: Staatliches, sans-serif;
+  }
+
+  button {
+    margin-top: 10px;
+    width: max-content;
+    height: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #00a1e5;
+  }
+
+  .map {
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #00a1e5;
+  }
+}

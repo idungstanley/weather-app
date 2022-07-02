@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render components render Nav 1`] = `
+<div
+  className="container"
+>
+  <img
+    alt="logo"
+    src="weather-logo.png"
+  />
+  <ul
+    className="link-container"
+  >
+    <li
+      className="link"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+  </ul>
+</div>
+`;
